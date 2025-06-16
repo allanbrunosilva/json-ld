@@ -1,24 +1,37 @@
 {
   "@context": {
-    "com.sap.gateway.srvd_a2x.rb1m.pp_ben_api.v0001.BOMExplosionNumber": {
-      "@id": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/BOMExplosionNumber",
-      "@context": {
-        "BOMExplosionKeyDate": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-bomExplosionKeyDate",
-        "BOMExplosionNumber": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-bomExplosionNumber",
-        "BOMExplosionNumberDescription": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-bomExplosionNumberDescription",
-        "BOMExplosionNumberShortKey": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-bomExplosionNumberShortKey",
-        "BOMExplosionNumberShortKeyStatus": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-bomExplosionNumberShortKeyStatus",
-        "BOMExplosionNumberStatus": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-bomExplosionNumberStatus",
-        "IsDeleted": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-isDeleted",
-        "Material": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-material",
-        "Plant": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-plant"
-      }
+    "schema": "https://schema.org/",
+    "locn": "http://www.w3.org/ns/locn#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "BOMExplosionKeyDate": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-bomExplosionKeyDate",
+    "BOMExplosionNumber": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-bomExplosionNumber",
+    "BOMExplosionNumberDescription": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-bomExplosionNumberDescription",
+    "BOMExplosionNumberShortKey": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-bomExplosionNumberShortKey",
+    "BOMExplosionNumberShortKeyStatus": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-bomExplosionNumberShortKeyStatus",
+    "BOMExplosionNumberStatus": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-bomExplosionNumberStatus",
+    "IsDeleted": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-isDeleted",
+    "Material": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-material",
+    "Plant": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-plant",
+    "error": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-error"
+  },
+  "@graph": [
+    {
+      "@id": "urn:uuid:e15451df-11f9-4551-8a0a-211d315b5f7e",
+      "@type": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/BOMExplosionNumber",
+      "BOMExplosionKeyDate": "sampleBomexplosionkeydate",
+      "BOMExplosionNumber": 42,
+      "BOMExplosionNumberDescription": "sampleBomexplosionnumberdescription",
+      "BOMExplosionNumberShortKey": "sampleBomexplosionnumbershortkey",
+      "BOMExplosionNumberShortKeyStatus": "sampleBomexplosionnumbershortkeystatus",
+      "BOMExplosionNumberStatus": "sampleBomexplosionnumberstatus",
+      "IsDeleted": "sampleIsdeleted",
+      "Material": "sampleMaterial",
+      "Plant": "samplePlant"
     },
-    "error": {
-      "@id": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/error",
-      "@context": {
-        "error": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/UnifiedAPI-error"
-      }
+    {
+      "@id": "urn:uuid:3a1a4c07-35af-44ca-b7be-2eed7b56ec1e",
+      "@type": "http://semantic.bosch.com/x-app-unifiedAPI-Ontology-v1/error",
+      "error": "sampleError"
     }
-  }
+  ]
 }
