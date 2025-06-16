@@ -1,0 +1,24 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "locn":   "http://www.w3.org/ns/locn#",
+    "name":   "schema:name",
+    "email":  "schema:email",
+    "postCode": "locn:postCode"
+  },
+
+  "@graph": [
+    {
+      "@id":   "https://example.org/person/42",
+      "@type": "schema:Person",
+      "name":  "Alice Example",
+      "email": "alice@example.org"
+    },
+    {
+      "@id":   "https://example.org/address/42",
+      "@type": "locn:Address",
+      "name":  "Head Office",
+      "postCode": "1040"
+    }
+  ]
+}
